@@ -1,3 +1,8 @@
+"""
+IMPORTANT!
+The implementation of Self Paced Ensemble has been from the Github 
+repository: https://github.com/ZhiningLiu1998/self-paced-ensemble
+"""
 import warnings
 
 import pandas as pd

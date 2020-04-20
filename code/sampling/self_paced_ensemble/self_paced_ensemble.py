@@ -7,6 +7,7 @@ mailto: znliu19@mails.jlu.edu.cn / zhining.liu@outlook.com
 
 import numpy as np
 import sklearn
+import scipy.sparse as sp
 from sklearn.tree import DecisionTreeClassifier
 import warnings
 warnings.filterwarnings("ignore")
@@ -20,7 +21,8 @@ class SelfPacedEnsemble():
 
     base_estimator : object, optional (default=sklearn.Tree.DecisionTreeClassifier())
         The base estimator to fit on self-paced under-sampled subsets of the dataset. 
-        NO need to support sample weighting. 
+        NO need to sup
+        port sample weighting.
         Built-in `fit()`, `predict()`, `predict_proba()` methods are required.
 
     hardness_func :  function, optional 
@@ -157,8 +159,13 @@ class SelfPacedEnsemble():
             y_train_maj = np.full(X_train_maj.shape[0], y_maj[0])
             print(X_train_maj.shape)
             print(X_min.shape)
-            X_train = np.vstack([X_train_maj, X_min])
-            y_train = np.vstack([y_train_maj, y_min])
+            # Handle sparse matrix
+            if sp.issparse(X_min):
+                X_train = sp.vstack([sp.csr_matrix(X_train_maj), X_min])
+            else:
+                X_train = np.vstack([X_train_maj, X_min])
+
+            y_train = np.hstack([y_train_maj, y_min])
 
         return X_train, y_train
 
