@@ -157,8 +157,6 @@ class SelfPacedEnsemble():
                     sampled_bins.append(bins[i_bins][idx].toarray())
             X_train_maj = np.concatenate(sampled_bins, axis=0)
             y_train_maj = np.full(X_train_maj.shape[0], y_maj[0])
-            print(X_train_maj.shape)
-            print(X_min.shape)
             # Handle sparse matrix
             if sp.issparse(X_min):
                 X_train = sp.vstack([sp.csr_matrix(X_train_maj), X_min])

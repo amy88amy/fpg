@@ -2,7 +2,7 @@
 
 ### FPG
 
-*F*raud *P*rediction using *G*raph features. 
+**F**raud **P**rediction using **G**raph features. 
 
 #### Dataset
 
@@ -13,6 +13,12 @@
 
 1. Python - v3.6
 2. To install the required packages run the command `pip install -r requirements.txt` or `pip3 install -r requirements.txt` depending on your system configuration.
+
+#### Step required to execute code
+
+1. To execute the jupyter notebooks go into the notebooks directory - `cd code/notebooks`, and start the jupyter notebook on your system. From the jupyter notebook's web UI you can start any of the notebooks.
+
+2. To execute the self paced sampling example - `cd code/sampling` and execute command `python3 using_self_paced.py`.
 
 #### References
 
@@ -33,6 +39,6 @@
 * Aakash Rastogi
 * Amruta Tapadiya
 * Kshitij Kashettiwar
-* [Pratik Barhate](pratikbarhate.github.io)
+* [Pratik Barhate](https://pratikbarhate.github.io)
 * Richa Nagda 
 * Vrushabh Jambhulkar

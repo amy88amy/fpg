@@ -7,7 +7,7 @@ import warnings
 
 import pandas as pd
 import numpy as np
-from sampling.self_paced_ensemble import self_paced_ensemble
+from self_paced_ensemble import self_paced_ensemble
 from sklearn.metrics import recall_score, precision_score, f1_score, confusion_matrix
 from sklearn.preprocessing import LabelEncoder, OneHotEncoder
 from sklearn.model_selection import train_test_split
@@ -16,8 +16,8 @@ warnings.filterwarnings('ignore')
 warnings.simplefilter(action='ignore', category=FutureWarning)
 
 # NOTE: Updated the BASE_PATH as per your system before execution.
-base_path = "/Users/Pratik/Data"
-data_path = base_path + "/banksim1/bs140513_032310.csv"
+base_path = "../../data"
+data_path = base_path + "/bs140513_032310.csv"
 raw_data = pd.read_csv(data_path)
 
 
