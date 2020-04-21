@@ -16,12 +16,17 @@
 
 #### References
 
-[1] _Bryan Perozzi, Rami Al-Rfou, Steven Skiena_. DeepWalk: Online Learning of Social Representations 2018
-[2] _Epasto, Alessandro, and Bryan Perozzi_. "Is a single embedding enough? learning node representations that capture multiple social contexts." In The World Wide Web Conference, pp. 394-404. 2019.
-[3] _Zhining Liu, Wei Cao, Zhifeng Gao, Jiang Bian, Hechang Chen, Yi Chang, Tie-Yan Liu_. Self-paced Ensemble for Highly Imbalanced Massive Data Classification.  September 2019
-[4] _Brownlee, Jason_. SMOTE Oversampling for Imbalanced Classification with Python - https://machinelearningmastery.com. January 2017
-[5] dzone.com (2020). Finding Needles in a Haystack With Graph Databases and Machine Learning - DZone AI. [online] Available at: https://dzone.com/articles/finding-needles-in-a-haystack-with-graph-databases [Accessed 22 Feb. 2020].
-[6] Learn How to Perform Feature Extraction from Graphs using DeepWalk  https://www.analyticsvidhya.com/blog/2019/11/graph-feature-extraction-deepwalk/
+1. _Bryan Perozzi, Rami Al-Rfou, Steven Skiena_. DeepWalk: Online Learning of Social Representations 2018
+
+2. _Epasto, Alessandro, and Bryan Perozzi_. "Is a single embedding enough? learning node representations that capture multiple social contexts." In The World Wide Web Conference, pp. 394-404. 2019.
+
+3. _Zhining Liu, Wei Cao, Zhifeng Gao, Jiang Bian, Hechang Chen, Yi Chang, Tie-Yan Liu_. Self-paced Ensemble for Highly Imbalanced Massive Data Classification.  September 2019
+
+4. _Brownlee, Jason_. SMOTE Oversampling for Imbalanced Classification with Python - https://machinelearningmastery.com. January 2017
+
+5. dzone.com (2020). Finding Needles in a Haystack With Graph Databases and Machine Learning - DZone AI. [online] Available at: https://dzone.com/articles/finding-needles-in-a-haystack-with-graph-databases [Accessed 22 Feb. 2020].
+
+6. Learn How to Perform Feature Extraction from Graphs using DeepWalk  https://www.analyticsvidhya.com/blog/2019/11/graph-feature-extraction-deepwalk/
 
 #### Contributors
 
