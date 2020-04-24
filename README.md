@@ -20,6 +20,9 @@
 
 2. To execute the self paced sampling example - `cd code/sampling` and execute command `python3 using_self_paced.py`.
 
+3.To execute persona -cd code/persona' and execute command 'python3 -m graph_embedding.persona.persona --input_graph=${graph} \
+   --output_clustering=${clustering_output}'.
+
 #### References
 
 1. _Bryan Perozzi, Rami Al-Rfou, Steven Skiena_. DeepWalk: Online Learning of Social Representations 2018
