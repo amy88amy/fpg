@@ -41,4 +41,4 @@
 * Kshitij Kashettiwar
 * [Pratik Barhate](https://pratikbarhate.github.io)
 * Richa Nagda 
-* Vrushabh Jambhulkar
+* [Vrushabh Jambhulkar](https://vrushabhjambhulkar.com)
