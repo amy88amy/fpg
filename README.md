@@ -4,6 +4,8 @@
 
 **F**raud **P**rediction using **G**raph features.
 
+Evaluations and results are summarized in the direcory [evaluations](https://github.com/PratikBarhate/fpg/blob/master/evaluations/evaluations.md)
+
 #### Dataset
 
 1. We have used a dataset available on Kaggle - [Synthetic data from a Financial payment system](https://www.kaggle.com/ntnu-testimon/banksim1).
