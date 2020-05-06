@@ -1,8 +1,10 @@
-[![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg)](https://www.python.org/)
+[![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg)](https://www.python.org/)   [![MIT license](https://img.shields.io/badge/License-MIT-blue.svg)](https://github.com/PratikBarhate/fpg/blob/master/LICENSE)
 
 ### FPG
 
-**F**raud **P**rediction using **G**raph features. 
+**F**raud **P**rediction using **G**raph features.
+
+Evaluations and results are summarized in the direcory [evaluations](https://github.com/PratikBarhate/fpg/blob/master/evaluations/evaluations.md)
 
 #### Dataset
 
@@ -38,6 +40,8 @@
 6. Learn How to Perform Feature Extraction from Graphs using DeepWalk  https://www.analyticsvidhya.com/blog/2019/11/graph-feature-extraction-deepwalk/
 
 #### Contributors
+
+CSE 573 Spring 2020 Group 12
 
 * Aakash Rastogi
 * Amruta Tapadiya
